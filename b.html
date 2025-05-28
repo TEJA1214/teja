@@ -1,0 +1,50 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flag Project</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="flag">
+        <div class="stripe top"></div>
+        <div class="stripe middle"></div>
+        <div class="stripe bottom"></div>
+    </div>
+    <style>
+        body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+}
+
+.flag {
+    width: 300px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    border: 2px solid black;
+}
+
+.stripe {
+    flex: 1;
+}
+
+.top {
+    background-color:orange;
+}
+
+.middle {
+    background-color: white;
+}
+
+.bottom {
+    background-color: green;
+}
+    </style>
+</body>
+</html>
